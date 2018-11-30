@@ -1,0 +1,115 @@
+{
+  "assures": [
+    {
+      "adresse": {
+        "codePostal": "44000",
+        "ligne2": "string",
+        "ligne3": "Bâtiments E et F",
+        "ligne4": "3 Rue Victor Schoelcher",
+        "ligne5": "string",
+        "pays": "FR",
+        "ville": "NANTES"
+      },
+      "civilite": "Monsieur",
+      "codePostalResidenceFiscale": "44000",
+      "couvertures": [
+        {
+          "couverture": {
+            "franchise": 90,
+            "idFormule": 101,
+            "idOptions": [
+              55
+            ],
+            "idSportsARisque": [
+              1
+            ],
+            "quotite": 100
+          },
+          "idQualite": 3,
+          "referencePret": "PRET001"
+        }
+      ],
+      "dateNaissance": "1998-07-12",
+      "email": "jean.dupont@laposte.net",
+      "encours": 45000,
+      "fumeur": false,
+      "idCategorieParticuliere": 0,
+      "idProduit": 185,
+      "idSportsARisque": [
+        1,
+        2
+      ],
+      "nom": "DUPONT",
+      "origine": {
+        "departementNaissance": "44",
+        "idNationalite": 64,
+        "nomNaissance": "DUPONT",
+        "paysNaissance": "FR",
+        "villeNaissance": "Nantes"
+      },
+      "paysResidenceFiscale": "FR",
+      "prenom": "Jean",
+      "profession": {
+        "deplacementsProfessionnels": false,
+        "idProfessionARisque": 596,
+        "idStatutProfessionnel": 1,
+        "manuelle": false,
+        "travailAdministratif": false,
+        "travauxEnHauteur": false
+      },
+      "referenceAssure": "ASSURE001",
+      "telephone": "+33612345678"
+    }
+  ],
+  "conseiller": {
+    "civilite": "Monsieur",
+    "codeEntiteDistributeur": 10000,
+    "email": "yves.antou@laposte.net",
+    "nom": "ANTOU",
+    "prenom": "Yves",
+    "referenceConseiller": "COURTIER001",
+    "telephone": "+33612345679"
+  },
+  "dateEffetGaranties": "2019-01-01",
+  "emprunteur": {
+    "adresse": {
+      "codePostal": "44000",
+      "ligne2": "string",
+      "ligne3": "Bâtiments E et F",
+      "ligne4": "3 Rue Victor Schoelcher",
+      "ligne5": "string",
+      "pays": "FR",
+      "ville": "NANTES"
+    },
+    "dateNaissance": "1998-07-12",
+    "idTypeEmprunteur": 4,
+    "nom": "DUPONT",
+    "numeroSIREN": 404833048,
+    "origine": {
+      "departementNaissance": "44",
+      "idNationalite": 64,
+      "nomNaissance": "DUPONT",
+      "paysNaissance": "FR",
+      "villeNaissance": "Nantes"
+    },
+    "prenom": "Jeanne"
+  },
+  "idObjetAssurance": 1,
+  "idObjetFinancement": 17,
+  "idOffre": 54,
+  "prets": [
+    {
+      "differe": 12,
+      "duree": 120,
+      "fraisBancaires": 0,
+      "idNatureDiffere": 2,
+      "idPeriodiciteEcheancePret": 3,
+      "idTypeAmortissement": 100,
+      "montant": 150000,
+      "paliers": [],
+      "referencePret": "PRET001",
+      "taux": 1.5
+    }
+  ],
+  "referenceDossier": "DOSSIER01"
+}
